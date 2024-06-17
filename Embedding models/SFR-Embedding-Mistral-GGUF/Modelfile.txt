@@ -1,0 +1,2 @@
+FROM ./ggml-sfr-embedding-mistral-f16.gguf
+TEMPLATE "[INST] {{ .Prompt }} [/INST]"
